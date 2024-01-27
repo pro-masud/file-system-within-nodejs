@@ -1,22 +1,28 @@
-const devs = [
+const devsData = [
     {
-        "name" : "Masud Rana",
-        "age"  : 22,
-        "location" : "Pahargoan",
-        "skills"    : "WordPress Developer"
+        "name": "Masud Rana",
+        "age": 22, 
+        "location": "Dhaka",
+        "skills": "Laravel Devs",
     },
     {
-        "name" : "Musrup Rana",
-        "age"  : 15,
-        "location" : "Pahargoan",
-        "skills"    : "Laravel Developer"
+        "name": "Masrup Rana",
+        "age": 16, 
+        "location": "Dinajpur",
+        "skills": "MERN Devs",
     },
     {
-        "name" : "Upkhasan Khane",
-        "age"  : 20,
-        "location" : "Pahargoan",
-        "skills"    : "MERN Developer"
+        "name": "Kutom Khan",
+        "age": 22, 
+        "location": "Khulna",
+        "skills": "PHP Devs",
+    },
+    {
+        "name": "Kasim Rana",
+        "age": 12, 
+        "location": "Dhaka",
+        "skills": "React Devs",
     },
 ];
 
-module.exports = devs;
+module.exports = devsData;
