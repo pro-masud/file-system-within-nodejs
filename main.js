@@ -1,11 +1,11 @@
 const {info, age} = require('./src/functions');
 const devsData = require('./src/data');
-const Students = require('./src/Class');
+const pro = require('./src/Class');
+const fs = require('fs');
 
-// console.log(info("masud", "23"));
-// console.log(devsData);
+const data = fs.readFileSync('./data/olddata.txt').toString();
 
-const stu = new Students();
+fs.writeFile('nodebook.txt', data, () => {
+    
+});
 
-// console.log(stu.ageCal("Masud Rana", "WordPress", "23"));
-console.log(stu.proName);
